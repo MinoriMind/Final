@@ -1,0 +1,132 @@
+h1
+{
+    margin: 0px;
+    text-align: center;
+    color: white;
+}
+
+p
+{
+    color: white;
+}
+
+.s1
+{
+    background: url("../images/1.jpg");
+    background-size: cover;
+}
+
+.s1 h1
+{
+    margin-right: 25%;
+}
+
+.s2
+{
+    background: url("../images/2.jpg");
+    background-size: cover;
+}
+
+.s2 h1
+{
+    margin-left:50%;
+}
+
+.s3 h1
+{
+    margin-left:50%;
+}
+
+.s3
+{
+    background: url("../images/3.jpg");
+    background-size: cover;
+}
+
+.s4
+{
+    background: url("../images/4.jpg");
+    background-size: cover;
+}
+
+
+.input-form
+{
+    margin-left: 30%;
+    width: 25%;
+}
+.subscribe-button
+{
+    margin-right: 30%;
+    width: 10%;
+}
+
+span
+{
+    background: white !important;
+}
+
+#game-field
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.center
+{
+    margin-left:auto;
+    margin-right:auto;
+    width: 80%;
+}
+
+.mole
+{
+    background: url("../images/5.jpg") no-repeat;
+    position: absolute;
+    width: 100px;
+    height: 80px;
+}
+
+
+/*Да без оптимизации :с*/
+.grid
+{
+    display: none;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+    margin-left: 20%;
+    margin-top: -2%;
+    width: 550px;
+    height: 600px;
+}
+
+.hole
+{
+    position: relative;
+    border-radius: 50%;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+}
+
+.points
+{
+    display: none;
+    width: 190px;
+    height: 90px;
+    margin-left: 2%;
+    line-height: 89px;
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    background: white;
+}
+
+.timer
+{
+    margin-left: 885px;
+    margin-top: 18px;
+}
